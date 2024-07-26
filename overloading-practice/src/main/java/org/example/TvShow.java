@@ -5,14 +5,12 @@ public class TvShow {
     private int episodeCount;
     private String genre;
 
-    // Default constructor
     public TvShow() {
         this.showName = "Unknown";
         this.episodeCount = 0;
         this.genre = "Unknown";
     }
 
-    // Constructor with parameters
     public TvShow(String showName, int episodeCount, String genre) {
         this.showName = showName;
         this.episodeCount = episodeCount;

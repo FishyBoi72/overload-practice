@@ -4,13 +4,11 @@ public class Animal {
     private String name;
     private boolean isDog;
 
-    // Default constructor
     public Animal() {
         this.name = "Unknown";
         this.isDog = false;
     }
 
-    // Constructor with parameters
     public Animal(String name, boolean isDog) {
         this.name = name;
         this.isDog = isDog;
